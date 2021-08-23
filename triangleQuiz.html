@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+
+    <link rel="stylesheet" href="./triangleQuiz/quiz.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Triangle Quiz</h1>
+    </nav>
+
+    <main>
+
+        <form class="quiz-form">
+
+            <div class="question-container">
+                <p> A triangle with one angle greater than 90 degrees.</p>
+
+                <!-- Why do we need same name for all the radio button of a question?
+                            Ans: So that only one of the radio button is selected 
+                        It is done to tell that these radio buttons are part of the same group
+                -->
+
+                <!-- Why do we need the value attribute in the input fields? -->
+
+                <label for="ques1-op1">equilateral triangle</label>
+                <input type="radio" id="ques1-op1" name="ques1-answer" value="equilateral triangle">
+
+                <label for="ques1-op2"> obtuse triangle</label>
+                <input type="radio" id="ques1-op2" name="ques1-answer" value="obtuse triangle">
+
+                <label for="ques1-op3">acute triangle</label>
+                <input type="radio" id="ques1-op3" name="ques1-answer" value="acute triangle">
+
+                <label for="ques1-op4">isosceles triangle</label>
+                <input type="radio" id="ques1-op4" name="ques1-answer" value="isosceles triangle">
+
+            </div>
+
+            <div class="question-container">
+                <p>A triangle with one angle equal to 90 degrees.?</p>
+
+                <label for="ques2-op1"> right triangle</label>
+                <input type="radio" id="ques2-op1" name="ques2-answer" value="right triangle">
+
+                <label for="ques2-op2">equilateral triangle</label>
+                <input type="radio" id="ques2-op2" name="ques2-answer" value="equilateral triangle">
+
+                <label for="ques2-op3">acute triangle</label>
+                <input type="radio" id="ques2-op3" name="ques2-answer" value="acute triangle">
+
+                <label for="ques2-op4">obtuse triangle</label>
+                <input type="radio" id="ques2-op4" name="ques2-answer" value="obtuse triangle">
+            </div>
+
+            <div class="question-container">
+                <p>The sum of the measures of all three sides of a triangle.?</p>
+
+                <label for="ques3-op1">area</label>
+                <input type="radio" id="ques3-op1" name="ques3-answer" value="area">
+
+                <label for="ques3-op2">perimeter</label>
+                <input type="radio" id="ques3-op2" name="ques3-answer" value="perimeter">
+
+                <label for="ques3-op3">diameter</label>
+                <input type="radio" id="ques3-op3" name="ques3-answer" value="diameter">
+
+                <label for="ques3-op4">height</label>
+                <input type="radio" id="ques3-op4" name="ques3-answer" value="height">
+            </div>
+
+            <div class="question-container">
+                <p>In right triangle, the side opposite to right angle is called.?</p>
+
+                <label for="ques4-op1"> altitude</label>
+                <input type="radio" id="ques4-op1" name="ques4-answer" value="altitude">
+
+                <label for="ques4-op2"> hypotenuse</label>
+                <input type="radio" id="ques4-op2" name="ques4-answer" value="hypotenuse">
+
+                <label for="ques4-op3">angle bisector</label>
+                <input type="radio" id="ques4-op3" name="ques4-answer" value="angle bisector">
+
+                <label for="ques4-op4">perpendicular</label>
+                <input type="radio" id="ques4-op4" name="ques4-answer" value="perpendicular">
+
+            </div>
+
+        </form>
+
+        <button id="submit-answers-btn"> Submit Answers </button>
+
+        <div id="output">
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        Footer
+
+    </footer>
+
+    <script src="./triangleQuiz/quiz.js"></script>
+</body>
+
+</html>
