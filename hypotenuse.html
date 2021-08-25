@@ -8,25 +8,47 @@
     <link rel="stylesheet" href="./hypotenuse-of-rightTriangle/hypotenuse.css">
 </head>
 <body>
-    <h1>Calculate Hypotenuse</h1>
 
-    <label for="side-a">a = </label>
-    <input id="side-a" class="side-input" type="number">
+    <nav>
+        <div>Hypotenuse</div>
 
-    <label for="side-b">b = </label>
-    <input id="side-b" class="side-input" type="number">
+        <ul>
+            <li>
+                <a href="./index.html">Is Triangle?</a>
+            </li>
+            <li>
+                <a href="./triangleQuiz.html">Quiz</a>
+            </li>
+            <li>
+                <a href="./hypotenuse.html"  id="active">Hypotenuse</a>
+            </li>
+            <li>
+                <a href="./areaTriangle.html">
+                    Area of Triangle
+                </a>
+                
+            </li>
+        </ul>
+    </nav>
 
-    <button id="hypotenuse-btn"> Calculate Hypotenuse</button>
+    <main>
 
-    <div class="output">
+        <h1>Calculate Hypotenuse</h1>
 
-    </div>
-
-
-
-
+        <label for="side-a">Enter a </label>
+        <input id="side-a" class="side-input" type="number">
     
+        <label for="side-b">Enter b </label>
+        <input id="side-b" class="side-input" type="number">
+    
+        <button id="hypotenuse-btn"> Calculate Hypotenuse</button>
+    
+        <div class="output">
+    
+        </div>
 
+    </main>
+   
     <script src="./hypotenuse-of-rightTriangle/hypotenuse.js"></script>
 </body>
 </html>

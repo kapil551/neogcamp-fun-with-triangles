@@ -13,15 +13,37 @@
 <body>
 
     <nav>
-        <h1>Triangle Quiz</h1>
+        <div>Triangle Quiz</div>
+
+        <ul>
+            <li>
+                <a href="./index.html">Is Triangle?</a>
+            </li>
+            <li>
+                <a href="./triangleQuiz.html" id="active">Quiz</a>
+            </li>
+            <li>
+                <a href="./hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li>
+                <a href="./areaTriangle.html">
+                    Area of Triangle
+                </a>
+                
+            </li>
+        </ul>
     </nav>
 
     <main>
 
+
+        <h1>Triangle Quiz</h1>
+        <p id="note-para">For each question there is only one correct option and each correct option will give you one point</p>
+
         <form class="quiz-form">
 
             <div class="question-container">
-                <p> A triangle with one angle greater than 90 degrees.</p>
+                <p> A triangle with one angle greater than 90 degrees?</p>
 
                 <!-- Why do we need same name for all the radio button of a question?
                             Ans: So that only one of the radio button is selected 
@@ -45,7 +67,7 @@
             </div>
 
             <div class="question-container">
-                <p>A triangle with one angle equal to 90 degrees.?</p>
+                <p>A triangle with one angle equal to 90 degrees?</p>
 
                 <label for="ques2-op1"> right triangle</label>
                 <input type="radio" id="ques2-op1" name="ques2-answer" value="right triangle">
@@ -61,7 +83,7 @@
             </div>
 
             <div class="question-container">
-                <p>The sum of the measures of all three sides of a triangle.?</p>
+                <p>The sum of the measures of all three sides of a triangle?</p>
 
                 <label for="ques3-op1">area</label>
                 <input type="radio" id="ques3-op1" name="ques3-answer" value="area">
@@ -77,7 +99,7 @@
             </div>
 
             <div class="question-container">
-                <p>In right triangle, the side opposite to right angle is called.?</p>
+                <p>In right triangle, the side opposite to right angle is called?</p>
 
                 <label for="ques4-op1"> altitude</label>
                 <input type="radio" id="ques4-op1" name="ques4-answer" value="altitude">
